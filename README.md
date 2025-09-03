@@ -1,6 +1,6 @@
 # Power-BI
 
-# COGS Optimization Dashboard
+## COGS Optimization Dashboard
 
 ### Purpose
 Compare SKU version costs (v1 vs v2) and calculate savings $ / %.
