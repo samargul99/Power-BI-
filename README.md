@@ -1,4 +1,4 @@
-# Power-BI-
+# Power-BI
 
 # COGS Optimization Dashboard
 
