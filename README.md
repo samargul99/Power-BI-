@@ -20,9 +20,7 @@ Savings % = DIVIDE([Savings $], [Cost v1])
 
 ---
 
-## 📄 /powerbi/vendor_comparison.md
-```md
-# Vendor Comparison Dashboard
+## Vendor Comparison Dashboard
 
 ### Purpose
 Compare Vendor Alpha vs Vendor Beta pricing and show savings if switching.
@@ -42,9 +40,7 @@ Savings if Switch % = DIVIDE([Alpha Price] - [Beta Price], [Alpha Price])
 
 ---
 
-## 📄 /powerbi/price_trends.md
-```md
-# Ingredient Price Trends Dashboard
+## Ingredient Price Trends Dashboard
 
 ### Purpose
 Show monthly price trends by vendor for each ingredient.
@@ -56,7 +52,7 @@ Show monthly price trends by vendor for each ingredient.
   - Legend = vendor_name
 - Slicer: ingredient_name
 
-# NMPA Submission Readiness Dashboard
+## NMPA Submission Readiness Dashboard
 
 ### Purpose
 Track readiness of products for Annex 14 submission and monitor data quality.
