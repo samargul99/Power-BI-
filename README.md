@@ -11,12 +11,10 @@ Compare SKU version costs (v1 vs v2) and calculate savings $ / %.
 - Treemap (optional): Ingredient contribution
 
 ### DAX
-```DAX
 Cost v1 = CALCULATE(SUM(bom_costs[bom_cost]), bom_costs[version_no] = 1)
 Cost v2 = CALCULATE(SUM(bom_costs[bom_cost]), bom_costs[version_no] = 2)
 Savings $ = [Cost v1] - [Cost v2]
 Savings % = DIVIDE([Savings $], [Cost v1])
-
 
 ---
 
@@ -31,7 +29,6 @@ Compare Vendor Alpha vs Vendor Beta pricing and show savings if switching.
 - Line Chart: Price trends (X=Date, Y=Price, Legend=Vendor)
 
 ### DAX
-```DAX
 Avg Price = AVERAGE(price_trends[price_per_uom])
 Alpha Price = CALCULATE([Avg Price], price_trends[vendor_name] = "Vendor Alpha")
 Beta Price  = CALCULATE([Avg Price], price_trends[vendor_name] = "Vendor Beta")
@@ -64,7 +61,6 @@ Track readiness of products for Annex 14 submission and monitor data quality.
 - Slicers: brand, region
 
 ### DAX
-```DAX
 Total Products = DISTINCTCOUNT(products[product_id])
 Ready Products = CALCULATE(DISTINCTCOUNT(products[product_id]), products[submission_status] = "Ready")
 Pending Validation = CALCULATE(DISTINCTCOUNT(products[product_id]), products[submission_status] = "Pending Validation")
